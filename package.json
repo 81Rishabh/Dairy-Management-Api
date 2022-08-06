@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce-api",
+  "version": "1.0.0",
+  "description": "This is simple api of ecommerce api that containes controllers getProduct , createProduct , editProductQty , deleteProduct",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Rishabh-Vishwakarma",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {}
+}
