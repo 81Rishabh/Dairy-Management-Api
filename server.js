@@ -20,5 +20,5 @@ app.listen(process.env.PORT || PORT, function(err) {
          console.error(err);
          return;
      }
-     console.log('listening on port' , process.env.port || port);
+     console.log('listening on port' , process.env.port || PORT);
 });
